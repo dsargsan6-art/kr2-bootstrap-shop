@@ -1,0 +1,17 @@
+/* Минимальные доработки поверх Bootstrap (подключается ПОСЛЕ него) */
+:root { --coffee: #6f4e37; --coffee-dark: #4a3325; --bs-primary: #6f4e37; --bs-primary-rgb: 111, 78, 55; --bs-link-color: #6f4e37; --bs-link-hover-color: #4a3325; }
+.bg-coffee { background-color: var(--coffee-dark); }
+.btn-primary { --bs-btn-bg: var(--coffee); --bs-btn-border-color: var(--coffee); --bs-btn-hover-bg: var(--coffee-dark); --bs-btn-hover-border-color: var(--coffee-dark); --bs-btn-active-bg: #3a281d; --bs-btn-active-border-color: #3a281d; --bs-btn-disabled-bg: var(--coffee); --bs-btn-disabled-border-color: var(--coffee); }
+.btn-outline-primary { --bs-btn-color: var(--coffee); --bs-btn-border-color: var(--coffee); --bs-btn-hover-bg: var(--coffee); --bs-btn-hover-border-color: var(--coffee); --bs-btn-active-bg: var(--coffee-dark); --bs-btn-active-border-color: var(--coffee-dark); }
+.nav-pills { --bs-nav-pills-link-active-bg: var(--coffee); }
+.pagination { --bs-pagination-active-bg: var(--coffee); --bs-pagination-active-border-color: var(--coffee); --bs-pagination-color: var(--coffee); }
+.bean-img { height: 180px; background: linear-gradient(135deg, var(--c1, #6f4e37), #2b1a10); border-radius: .375rem .375rem 0 0; }
+.bean-img.big { height: 360px; border-radius: 0; }
+.bean-img.img-hero { height: 320px; border-radius: .5rem; --c1: #8b5a2b; }
+a:focus-visible, button:focus-visible, .form-control:focus-visible { outline: 3px solid #ffbf47; outline-offset: 2px; }
+.img-1 { --c1: #8b5a2b; }
+.img-2 { --c1: #6f4e37; }
+.img-3 { --c1: #a0522d; }
+.img-4 { --c1: #5c4033; }
+.img-5 { --c1: #7b3f00; }
+.img-6 { --c1: #3e2723; }
