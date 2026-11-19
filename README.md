@@ -49,4 +49,4 @@ kr2-bootstrap-shop/
 
 ## Публикация
 
-GitHub Pages: ссылка (добавить после включения Pages).
+GitHub Pages: https://dsargsan6-art.github.io/kr2-bootstrap-shop/
